@@ -1,0 +1,26 @@
+---
+title: "DSO 458 Session 4"
+author: "Riley Sansone"
+date: "2023-01-23"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+```{r barbie}
+data = read.table("https://raw.githubusercontent.com/enosnas/DSO-458/main/BarbievsBratz%20Session%204%20Data.txt?token=GHSAT0AAAAAAB5UEGAJY7ZE5ZLOJ2AWBXMQY6PBSMQ", header = T)
+View(data)
+
+```
+
+## Plots
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
